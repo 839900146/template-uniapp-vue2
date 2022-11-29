@@ -9905,6 +9905,11 @@ source-map@^0.7.3:
   resolved "https://registry.npmmirror.com/source-map/-/source-map-0.7.4.tgz#a9bbe705c9d8846f4e08ff6765acf0f1b0898656"
   integrity sha512-l3BikUxvPOcn5E74dZiq5BGsTb5yEwhaTSzccU6t4sDOH8NWJCstKO5QT2CvtFoK6F0saL7p9xHAqHOlCPJygA==
 
+spark-md5@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.npmmirror.com/spark-md5/-/spark-md5-3.0.2.tgz#7952c4a30784347abcee73268e473b9c0167e3fc"
+  integrity sha512-wcFzz9cDfbuqe0FZzfi2or1sgyIrsDwmPwfZC4hiNidPdPINjeUwNfv5kldczoEAcjl9Y1L3SM7Uz2PUEQzxQw==
+
 spdx-correct@^3.0.0:
   version "3.1.1"
   resolved "https://registry.npmmirror.com/spdx-correct/-/spdx-correct-3.1.1.tgz#dece81ac9c1e6713e5f7d1b6f17d468fa53d89a9"
@@ -10603,6 +10608,18 @@ unbox-primitive@^1.0.2:
     has-bigints "^1.0.2"
     has-symbols "^1.0.3"
     which-boxed-primitive "^1.0.2"
+
+uniapp-fs@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.npmmirror.com/uniapp-fs/-/uniapp-fs-1.0.2.tgz#6907276b30082b1c63fd6ccbaea02891ce5621e9"
+  integrity sha512-LNPe0FGcbxhu+Zv8GHkx1Dn5JR839TIOMK/BFJuZ/xl8kHKVP6jwlA8d2WE16MsFSrDtvYfwYf7pWJgoOtKhKQ==
+  dependencies:
+    spark-md5 "^3.0.2"
+
+uniapp-to@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmmirror.com/uniapp-to/-/uniapp-to-1.0.0.tgz#8089039c73691d2d44d6e764f2ae5a244d1bcb22"
+  integrity sha512-nwjBULyhx4B63EZzzxRFI4oOei8RBJXID0xiQZLw8ZPRk5j65eV2SxNZlkJpUYbt1o/kCcDt87f3s/HWrJaC9A==
 
 unicode-canonical-property-names-ecmascript@^2.0.0:
   version "2.0.0"

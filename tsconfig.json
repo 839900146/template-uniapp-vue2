@@ -1,39 +1,38 @@
 {
-  "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
-    "strict": true,
-    "jsx": "preserve",
-    "importHelpers": true,
-    "moduleResolution": "node",
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "experimentalDecorators":true,
-    "sourceMap": true,
-    "skipLibCheck": true,
-    "baseUrl": ".",
-    "types": [
-      "webpack-env",
-      "@dcloudio/types",
-      "miniprogram-api-typings",
-      "mini-types"
-    ],
-    "paths": {
-      "@/*": [
-        "./src/*"
-      ]
-    },
-    "lib": [
-      "esnext",
-      "dom",
-      "dom.iterable",
-      "scripthost"
-    ]
-  },
-  "exclude": [
-    "node_modules",
-    "unpackage",
-    "dist",
-    "src/**/*.nvue"
-  ]
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "esnext",
+		"strict": true,
+		"jsx": "preserve",
+		"resolveJsonModule": true,
+		"importHelpers": true,
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"experimentalDecorators": true,
+		"sourceMap": true,
+		"skipLibCheck": true,
+		"noImplicitAny": false,
+		"baseUrl": ".",
+		"types": [
+			"webpack-env",
+			"@dcloudio/types",
+			"miniprogram-api-typings",
+			"mini-types"
+		],
+		"paths": {
+			"@/*": ["./src/*"],
+			"@assets/*": ["src/assets/*"],
+			"@config/*": ["src/config/*"],
+			"@static/*": ["src/static/*"],
+			"@services/*": ["src/services/*"],
+			"@pages/*": ["src/pages/*"],
+			"@plugins/*": ["src/plugins/*"],
+			"@components/*": ["src/components/*"],
+			"@store/*": ["src/store/*"],
+			"@utils/*": ["src/utils/*"],
+		},
+		"lib": ["esnext", "dom", "dom.iterable", "scripthost"]
+	},
+	"exclude": ["node_modules", "unpackage", "dist", "src/**/*.nvue"]
 }
