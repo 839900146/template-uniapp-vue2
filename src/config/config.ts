@@ -5,12 +5,11 @@ export const REQUEST_PRESET_ENV: CustomRequest.IPresetEnv = {
     current: 'prod',
     env: {
         /** 本地/开发环境 */
-        // dev: 'http://192.168.3.85:5560',
         dev: 'http://192.168.3.72:9991',
         /** 生产环境 */
-        prod: 'https://api.emoz.cloud',
+        prod: 'https://baidu.com',
         /** 测试环境 */
-        test: 'https://test.playlarp.com',
+        test: 'https://test.baidu.com',
     },
 }
 
@@ -21,7 +20,7 @@ export const PLUGIN_PROXY: TPluginProxy = {
         /** 是否启用内网穿透 */
         enable: false,
         /** 内网穿透地址 */
-        address: 'http://local-net.nat300.top',
+        address: 'http://nat.baidu.com',
     },
     /** 前端反向代理 */
     proxy: {
