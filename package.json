@@ -97,6 +97,7 @@
     "@vue/cli-plugin-typescript": "~4.5.19",
     "@vue/cli-service": "~4.5.19",
     "babel-plugin-import": "^1.11.0",
+    "compression-webpack-plugin": "5.0.1",
     "cross-env": "^7.0.2",
     "jest": "^25.4.0",
     "mini-types": "*",

@@ -49,9 +49,16 @@
     },
     "mp-weixin": { /* 小程序特有相关 */
         "usingComponents":true,
+        "lazyCodeLoading": "requiredComponents",
         "appid": "wx1f8807024c17f165",
         "setting" : {
-        	"urlCheck" : true
+        	"urlCheck" : true,
+            "es6": false,
+            "postcss": true,
+            "minified": true
+        },
+        "optimization": {
+            "subPackages": true
         }
     },
     "mp-alipay" : {
@@ -61,9 +68,22 @@
         "usingComponents" : true
     },
     "mp-toutiao" : {
-        "usingComponents" : true
+        "usingComponents" : true,
+        "appid": "tt447232cfdb4dd7d001",
+        "setting" : {
+        	"urlCheck" : true,
+            "es6": false,
+            "postcss": true,
+            "minified": true
+        }
     },
     "mp-qq" : {
         "usingComponents" : true
+    },
+    "mp-kuaishou": {
+        "appid": "tt447232cfdb4dd7d001",
+        "optimization": {
+            "subPackages": true
+        }
     }
 }

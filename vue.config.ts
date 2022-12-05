@@ -1,4 +1,5 @@
 const path = require("path");
+const CompressionWebpackPlugin = require('compression-webpack-plugin')
 
 function resolve(dir: string) {
     // @ts-ignore
@@ -22,5 +23,16 @@ module.exports = {
             },
         },
     },
-    transpileDependencies:['@dcloudio/uni-ui']
+    chainWebpack: config => {
+        config.plugin('CompressionPlugin').use(
+            new CompressionWebpackPlugin({
+                algorithm: 'gzip',
+                test: /\.(js|css|html)$/,// 匹配文件名
+                threshold: 10240, // 对超过10k的数据压缩
+                deleteOriginalAssets: false, // 不删除源文件
+                minRatio: 0.8 // 压缩比
+            })
+        )
+    },
+    transpileDependencies: ['@dcloudio/uni-ui']
 }
