@@ -50,7 +50,7 @@
     "mp-weixin": { /* 小程序特有相关 */
         "usingComponents":true,
         "lazyCodeLoading": "requiredComponents",
-        "appid": "wx1f8807024c17f165",
+        "appid": "",
         "setting" : {
         	"urlCheck" : true,
             "es6": false,
@@ -69,7 +69,7 @@
     },
     "mp-toutiao" : {
         "usingComponents" : true,
-        "appid": "tt447232cfdb4dd7d001",
+        "appid": "",
         "setting" : {
         	"urlCheck" : true,
             "es6": false,
@@ -81,7 +81,7 @@
         "usingComponents" : true
     },
     "mp-kuaishou": {
-        "appid": "tt447232cfdb4dd7d001",
+        "appid": "",
         "optimization": {
             "subPackages": true
         }

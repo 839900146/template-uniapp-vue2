@@ -1,19 +1,26 @@
-# magic-tools
+# uniapp项目模板-vue2
 
-## Project setup
+## 安装依赖
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+## 运行至h5
 ```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
+yarn dev:h5
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 运行至微信小程序
+```
+yarn dev:mp-weixin
+```
+
+## 打包至h5
+```
+yarn build:h5
+```
+
+## 打包至微信小程序
+```
+yarn build:mp-weixin
+```
